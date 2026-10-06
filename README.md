@@ -86,7 +86,8 @@ python pipeline.py --capture <room2\_path> --room-id room2 --horizontal-calibrat
 
 python pipeline.py --capture <room3\_path> --room-id room3 --horizontal-calibration 0.876
 
-## Known Limitations
+\## Known Limitations
+
 
 - Photo and video tier adapters are not implemented — only the LiDAR tier
 
@@ -112,7 +113,7 @@ python pipeline.py --capture <room3\_path> --room-id room3 --horizontal-calibrat
 
 
 
-## Device Matrix
+\## Device Matrix
 
 
 
