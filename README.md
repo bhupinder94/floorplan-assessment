@@ -88,33 +88,31 @@ python pipeline.py --capture <room3\_path> --room-id room3 --horizontal-calibrat
 
 ## Known Limitations
 
+- Photo and video tier adapters are not implemented — only the LiDAR tier
 
+ is complete and validated. Given 48-hour time constraints, we prioritized
 
-\- Photo and video tier adapters are not implemented — only the LiDAR tier
+ one fully-working, ground-truth-validated tier over three partially-working
 
-&#x20; is complete and validated. Given 48-hour time constraints, we prioritized
+ ones. This was a deliberate scoping call, not an oversight.
 
-&#x20; one fully-working, ground-truth-validated tier over three partially-working
+- Openings (door/window) detection is not implemented.
 
-&#x20; ones. This was a deliberate scoping call, not an oversight.
+- Multi-room stitching is not implemented — 3 rooms were captured and
 
-\- Openings (door/window) detection is not implemented.
+ individually validated but not yet joined into one stitched plan.
 
-\- Multi-room stitching is not implemented — 3 rooms were captured and
+- Ceiling-height detection can be wrong for captures that never clearly
 
-&#x20; individually validated but not yet joined into one stitched plan.
+ saw the ceiling (Room2: 19cm error) — the "ceiling observed" check
 
-\- Ceiling-height detection can be wrong for captures that never clearly
+ needs a stricter density threshold.
 
-&#x20; saw the ceiling (Room2: 19cm error) — the "ceiling observed" check
-
-&#x20; needs a stricter density threshold.
-
-\- Drift correction: not implemented (no ablation performed).
+- Drift correction: not implemented (no ablation performed).
 
 
 
-\## Device Matrix
+## Device Matrix
 
 
 
