@@ -1,0 +1,93 @@
+{
+  "capture_id": "room1scan",
+  "tier": "lidar",
+  "rooms": [
+    {
+      "room_id": "room1",
+      "tier": "lidar",
+      "walls": [
+        {
+          "wall_id": "wall_0",
+          "start_xy": [
+            -1.3119751080654476,
+            -3.0621987552067975
+          ],
+          "end_xy": [
+            1.9308364065929142,
+            -3.8108607837571213
+          ],
+          "length": {
+            "value_m": 2.915,
+            "confidence_m": 0.05,
+            "source": "lidar"
+          }
+        },
+        {
+          "wall_id": "wall_1",
+          "start_xy": [
+            1.9308364065929142,
+            -3.8108607837571213
+          ],
+          "end_xy": [
+            2.8215963293358572,
+            0.047444331383154625
+          ],
+          "length": {
+            "value_m": 3.469,
+            "confidence_m": 0.05,
+            "source": "lidar"
+          }
+        },
+        {
+          "wall_id": "wall_2",
+          "start_xy": [
+            2.8215963293358572,
+            0.047444331383154625
+          ],
+          "end_xy": [
+            -0.4212151853225047,
+            0.796106359933478
+          ],
+          "length": {
+            "value_m": 2.915,
+            "confidence_m": 0.05,
+            "source": "lidar"
+          }
+        },
+        {
+          "wall_id": "wall_3",
+          "start_xy": [
+            -0.4212151853225047,
+            0.796106359933478
+          ],
+          "end_xy": [
+            -1.3119751080654476,
+            -3.0621987552067975
+          ],
+          "length": {
+            "value_m": 3.469,
+            "confidence_m": 0.05,
+            "source": "lidar"
+          }
+        }
+      ],
+      "ceiling_height": {
+        "value_m": 2.586,
+        "confidence_m": 0.015,
+        "source": "lidar"
+      },
+      "floor_area_m2": {
+        "value_m": 10.112,
+        "confidence_m": 0.15,
+        "source": "lidar"
+      },
+      "openings": [],
+      "notes": [
+        "horizontal_calibration applied: factor=0.876 (derived from tape-measured rooms, iPhone 12 Pro + Stray Scanner). Ceiling height NOT corrected -- unvalidated against tape ground truth."
+      ]
+    }
+  ],
+  "adjacency": [],
+  "damage": [],
+  "concealed": []
+}
